@@ -52,5 +52,11 @@
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="ec031508-4619-47f7-a259-cf8538434023" name="PWR_PCDU">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="cf82dc98-d6c4-441e-9d5b-d904ceab070d">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+    </propertyInstances>
+  </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>
 </dvlm_s:StructuralElementInstance>

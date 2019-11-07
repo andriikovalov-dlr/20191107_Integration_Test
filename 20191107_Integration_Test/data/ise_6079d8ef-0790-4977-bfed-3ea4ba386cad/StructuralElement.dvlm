@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="6079d8ef-0790-4977-bfed-3ea4ba386cad" name="PCDU">
+  <parent href="../ise_ca77f4c9-e517-4264-ad20-8502942632e7/StructuralElement.dvlm#ca77f4c9-e517-4264-ad20-8502942632e7"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#37b4e472-80a1-41c3-8b56-83c7ae20d188"/>
+  <categoryAssignments uuid="596e4059-d492-4ea9-b385-4bfa4ff481b6" name="PwrBattery_1">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="91314b46-9b29-401e-964a-21c58f953430" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="46f01a0e-8bba-4557-a956-efca2b2de760" name="PwrBattery_3">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="3f8a9135-a3c3-43fc-86cb-e139e28a0bf3" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="0879451b-9414-4530-a2a4-ddcc5de82ed5" name="PwrBattery_2">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="ad846ffe-bdae-4657-b47d-f5223ed30179" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>
+</dvlm_s:StructuralElementInstance>

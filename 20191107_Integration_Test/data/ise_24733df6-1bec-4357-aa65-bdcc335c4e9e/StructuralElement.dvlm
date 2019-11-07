@@ -74,6 +74,14 @@
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="5b67f0e3-b449-4f19-b3e6-f4c80c659ec5" isInherited="true" name="PWR_PCDU">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_f57ce8e0-103d-4768-a378-93b2b1ef5707/StructuralElement.dvlm#ec031508-4619-47f7-a259-cf8538434023"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="f6a795d6-cad0-4c4b-9702-b31e47a73d28" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_f57ce8e0-103d-4768-a378-93b2b1ef5707/StructuralElement.dvlm#cf82dc98-d6c4-441e-9d5b-d904ceab070d"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+    </propertyInstances>
+  </categoryAssignments>
   <superSeis href="../ise_f57ce8e0-103d-4768-a378-93b2b1ef5707/StructuralElement.dvlm#f57ce8e0-103d-4768-a378-93b2b1ef5707"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
 </dvlm_s:StructuralElementInstance>
