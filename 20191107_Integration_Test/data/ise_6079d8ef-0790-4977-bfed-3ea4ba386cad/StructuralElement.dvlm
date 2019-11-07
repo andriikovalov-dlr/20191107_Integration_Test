@@ -72,5 +72,40 @@
       <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="82ea07ee-30b9-493c-876d-f31aaffa3fc3" name="PwrOut4">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="699f5448-89c2-409b-ace2-08b5fdbd79eb" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="b03e40c5-08ea-43d7-9996-1ef15cda9ad4" name="PwrOut5">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="5382b130-708c-4d00-84c0-39634ab56914" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="0c277f71-86f2-4e37-9acf-09c5698ebd47" name="PwrOut6">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="7f7e1ea5-b220-40d5-9d36-91bb2aa7621c" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="139fd59e-4d7d-427b-b1ae-1f28c2459bc8" name="PwrOut7">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="68c2cab9-5136-454d-824f-647828747275" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="f11cdac2-c5d4-4894-97ab-251b294724c0" name="PwrOut8">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="5c8f4f6c-706d-44c1-80bd-1be3fd9796e2" override="true">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
+    </propertyInstances>
+  </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>
 </dvlm_s:StructuralElementInstance>
