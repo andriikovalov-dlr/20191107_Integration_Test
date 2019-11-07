@@ -30,7 +30,7 @@
         <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="f35468a6-2eb0-4ecf-abbc-b1dc155fe03b" reference="fc14149d-24c5-43da-8cbe-6c333a4362ef"/>
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.2"/>
       </equations>
-      <equations resultText="0.19175824175824177">
+      <equations resultText="NaN">
         <expression xsi:type="dvlm_calc:MultiplicationAndDivision" operator="/">
           <left xsi:type="dvlm_calc:ReferencedInput" reference="fc14149d-24c5-43da-8cbe-6c333a4362ef">
             <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.3/@expression/@left"/>
@@ -55,7 +55,7 @@
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="699f7b21-2635-4d85-a91f-1c4684e02516" value="19.17582417582418">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="699f7b21-2635-4d85-a91f-1c4684e02516" value="NaN">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.margin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
