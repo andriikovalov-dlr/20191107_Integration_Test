@@ -52,7 +52,7 @@
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
   </categoryAssignments>
-  <categoryAssignments uuid="62cac532-f1bc-4140-b295-bdaf56738e91" name="InterfaceEnd">
+  <categoryAssignments uuid="62cac532-f1bc-4140-b295-bdaf56738e91" name="Poweeeeeeeeer">
     <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
     <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="86890391-6c5e-4ce9-9cf4-cd21482a6c6e" override="true">
       <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
