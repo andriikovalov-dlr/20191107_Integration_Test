@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="981c59b6-6fce-44a1-bd82-a584c757cc2c" name="InterfaceTypeCollection">
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_qudv="http://www.virsat.sc.dlr.de/dvlm/v7/qudv" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="981c59b6-6fce-44a1-bd82-a584c757cc2c" name="InterfaceTypeCollection">
   <assignedDiscipline href="../RoleManagement.dvlm#2fabe69a-2454-4c11-a7e6-f49ade41d6ad"/>
   <categoryAssignments uuid="ff97b5a0-90e5-4c3a-9500-6dcdd2e15477" name="SpaceWire">
     <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.DataInterfaceType"/>
     <propertyInstances xsi:type="dvlm_cppi:ValuePropertyInstance" uuid="c6e0fc61-43d7-46b9-b18b-aa3b0343d156" override="true" value="Analog">
       <type xsi:type="dvlm_cppd:StringProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.DataInterfaceType.electricalStandard"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="15699e4a-5764-4f2a-a281-14b176d11e09" name="HighVoltageCable">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.PowerInterfaceType"/>
+    <propertyInstances xsi:type="dvlm_cppi:ArrayInstance" uuid="46bd607e-e734-4cf3-9f7a-f9f879765472">
+      <type xsi:type="dvlm_cppd:ComposedProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.PowerInterfaceType.voltages"/>
+      <arrayInstances xsi:type="dvlm_cppi:ComposedPropertyInstance" uuid="e78d263a-96f3-46bb-b5b6-260aafd715a4">
+        <type xsi:type="dvlm_cppd:ComposedProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.PowerInterfaceType.voltages"/>
+        <typeInstance uuid="c23bc768-f234-40b8-b23b-44528b46d667" name="voltages">
+          <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.FixedVoltageDefinition"/>
+          <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="8f989168-0565-4940-b9cd-76e8f0bb12f1" override="true" value="12">
+            <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.FixedVoltageDefinition.nominalValue"/>
+            <unit xsi:type="dvlm_qudv:DerivedUnit" href="../UnitManagement.dvlm#9e6e24d1-d274-44a5-8380-b60801604eaf"/>
+          </propertyInstances>
+        </typeInstance>
+      </arrayInstances>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="8e974932-527e-4e61-ac6c-6142684051da" name="LowVoltageCable">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.PowerInterfaceType"/>
+    <propertyInstances xsi:type="dvlm_cppi:ArrayInstance" uuid="83291cbf-13ba-4060-9b38-f5c3538858f1">
+      <type xsi:type="dvlm_cppd:ComposedProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.PowerInterfaceType.voltages"/>
+      <arrayInstances xsi:type="dvlm_cppi:ComposedPropertyInstance" uuid="a2cee5d2-5aa9-4f72-8283-7ed6b856c972">
+        <type xsi:type="dvlm_cppd:ComposedProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.PowerInterfaceType.voltages"/>
+        <typeInstance uuid="9f435a91-7d4d-4888-825b-06fceb08633c" name="voltages">
+          <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.FixedVoltageDefinition"/>
+          <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="62f54ba0-f268-4305-84a9-1b2b42d44db6" override="true" value="5">
+            <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.FixedVoltageDefinition.nominalValue"/>
+            <unit xsi:type="dvlm_qudv:DerivedUnit" href="../UnitManagement.dvlm#9e6e24d1-d274-44a5-8380-b60801604eaf"/>
+          </propertyInstances>
+        </typeInstance>
+      </arrayInstances>
     </propertyInstances>
   </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceTypeCollection"/>
