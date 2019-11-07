@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dvlm:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm="http://www.virsat.sc.dlr.de/dvlm/v7" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" uuid="fa4c3026-b6b7-4fd9-947a-bbff2571e957">
+<dvlm:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm="http://www.virsat.sc.dlr.de/dvlm/v7" xmlns:dvlm_calc="http://www.virsat.sc.dlr.de/dvlm/v7/calc" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" uuid="fa4c3026-b6b7-4fd9-947a-bbff2571e957">
   <assignedDiscipline href="RoleManagement.dvlm#5a500490-38e7-4aea-a315-654eeadb2824"/>
   <rootEntities href="ise_86079145-f633-4e8b-a4bf-b7c978799e6c/StructuralElement.dvlm#86079145-f633-4e8b-a4bf-b7c978799e6c"/>
   <rootEntities href="ise_0339cff7-9319-448c-9877-9483ecab4024/StructuralElement.dvlm#0339cff7-9319-448c-9877-9483ecab4024"/>
+  <rootEntities href="ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#981c59b6-6fce-44a1-bd82-a584c757cc2c"/>
   <roleManagement href="RoleManagement.dvlm#1fcf4b76-e785-4642-bcb7-d8191fb30efe"/>
   <unitManagement href="UnitManagement.dvlm#27d924c8-8549-4af8-bbbd-9971ee3d65b9"/>
   <activeConcepts name="de.dlr.sc.virsat.model.extension.ps" description="Product Structure Concept" version="1.1" displayName="Product Structure">
@@ -22,5 +23,87 @@
     <structuralElements name="ProductStorage" description="Product tree to describe a storage of real components" isRootStructuralElement="true"/>
     <structuralElements name="ProductStorageDomain" description="A domain representing a folder in which real component can be organized within the storage" applicableFor="de.dlr.sc.virsat.model.extension.ps.ProductStorage de.dlr.sc.virsat.model.extension.ps.ProductStorageDomain"/>
     <structuralElements name="ElementRealization" description="A component representing the real product" applicableFor="de.dlr.sc.virsat.model.extension.ps.ProductStorageDomain" canInheritFrom="de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>
+  </activeConcepts>
+  <activeConcepts name="de.dlr.sc.virsat.model.extension.budget.mass" description="Mass Budget Concept" version="1.1" displayName="Mass Budget">
+    <categories name="AMassParameters" description="Definition of the equipment mass" isAbstract="true">
+      <properties xsi:type="dvlm_cppd:FloatProperty" name="mass" description="The Equipment mass" quantityKindName="Mass" unitName="Kilogram" defaultValue="0.0"/>
+      <properties xsi:type="dvlm_cppd:FloatProperty" name="massWithMargin" description="The equipment mass plus the safety margin" quantityKindName="Mass" unitName="Kilogram" defaultValue="0.0"/>
+      <properties xsi:type="dvlm_cppd:FloatProperty" name="massMargin" description="The actual amount of margin mass" quantityKindName="Mass" unitName="Kilogram" defaultValue="0.0"/>
+      <properties xsi:type="dvlm_cppd:FloatProperty" name="margin" description="The margin to be added as safety factor" quantityKindName="Dimensionless" unitName="Percent" defaultValue="20.0"/>
+    </categories>
+    <categories name="MassEquipment" description="Definition of the equipment mass" isApplicableForAll="true" cardinality="1" extendsCategory="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters">
+      <equationDefinitions>
+        <expression xsi:type="dvlm_calc:MultiplicationAndDivision" operator="*">
+          <left xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+          <right xsi:type="dvlm_calc:Parenthesis">
+            <right xsi:type="dvlm_calc:AdditionAndSubtraction">
+              <left xsi:type="dvlm_calc:NumberLiteral" value="1"/>
+              <right xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.margin"/>
+            </right>
+          </right>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeDefinitionResult" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+      </equationDefinitions>
+      <equationDefinitions>
+        <expression xsi:type="dvlm_calc:AdditionAndSubtraction" operator="-">
+          <left xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+          <right xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeDefinitionResult" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
+      </equationDefinitions>
+    </categories>
+    <categories name="MassSummary" description="Summary of all nested equipment masses" isApplicableForAll="true" cardinality="1" extendsCategory="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters">
+      <equationDefinitions>
+        <expression xsi:type="dvlm_calc:SetFunction" operator="summary" typeDefinition="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+        <result xsi:type="dvlm_calc:TypeDefinitionResult" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+      </equationDefinitions>
+      <equationDefinitions>
+        <expression xsi:type="dvlm_calc:SetFunction" operator="summary" typeDefinition="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+        <result xsi:type="dvlm_calc:TypeDefinitionResult" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+      </equationDefinitions>
+      <equationDefinitions>
+        <expression xsi:type="dvlm_calc:AdditionAndSubtraction" operator="-">
+          <left xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+          <right xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeDefinitionResult" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
+      </equationDefinitions>
+      <equationDefinitions>
+        <expression xsi:type="dvlm_calc:MultiplicationAndDivision" operator="/">
+          <left xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
+          <right xsi:type="dvlm_calc:ReferencedDefinitionInput" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeDefinitionResult" reference="de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.margin"/>
+      </equationDefinitions>
+    </categories>
+  </activeConcepts>
+  <activeConcepts name="de.dlr.sc.virsat.model.extension.funcelectrical" description="Concept for modeling Functional Electrical Architecture (FEA)" version="2.0" displayName="Functional Electrical Architecture">
+    <imports importedNamespace="de.dlr.sc.virsat.model.extension.ps.*"/>
+    <categories name="InterfaceType" shortName="IFT" description="InterfaceTypes such as MIL or CAN to type communication of InterfaceEnds" applicableFor="de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceTypeCollection"/>
+    <categories name="PowerInterfaceType" description="Describes a Power interface type with nominal voltages" extendsCategory="de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceType">
+      <properties xsi:type="dvlm_cppd:ComposedProperty" name="voltages" type="de.dlr.sc.virsat.model.extension.funcelectrical.VoltageDefinition">
+        <arrayModifier xsi:type="dvlm_cppd:DynamicArrayModifier"/>
+      </properties>
+    </categories>
+    <categories name="VoltageDefinition" description="Abstract voltage definition" isAbstract="true"/>
+    <categories name="FixedVoltageDefinition" description="Fixed voltage defining a nominal value" extendsCategory="de.dlr.sc.virsat.model.extension.funcelectrical.VoltageDefinition">
+      <properties xsi:type="dvlm_cppd:FloatProperty" name="nominalValue" quantityKindName="Electric potential difference" unitName="Volt" defaultValue="0"/>
+    </categories>
+    <categories name="RangedVoltageDefinition" description="Interval range of nominal voltages" extendsCategory="de.dlr.sc.virsat.model.extension.funcelectrical.VoltageDefinition">
+      <properties xsi:type="dvlm_cppd:FloatProperty" name="minVoltage" quantityKindName="Electric potential difference" unitName="Volt" defaultValue="0"/>
+      <properties xsi:type="dvlm_cppd:FloatProperty" name="maxVoltage" quantityKindName="Electric potential difference" unitName="Volt" defaultValue="0"/>
+    </categories>
+    <categories name="DataInterfaceType" description="Describes a Data communication interface type" extendsCategory="de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceType">
+      <properties xsi:type="dvlm_cppd:StringProperty" name="electricalStandard" defaultValue="Analog"/>
+    </categories>
+    <categories name="ThermalReferencePoint" description="Describes a thermal communication interface type" extendsCategory="de.dlr.sc.virsat.model.extension.funcelectrical.DataInterfaceType"/>
+    <categories name="InterfaceEnd" shortName="IFE" description="Describes a Functional Electrical InterfaceEnd as connection point for Interfaces" applicableFor="de.dlr.sc.virsat.model.extension.ps.ElementDefinition de.dlr.sc.virsat.model.extension.ps.ElementConfiguration de.dlr.sc.virsat.model.extension.ps.ElementOccurence">
+      <properties xsi:type="dvlm_cppd:ReferenceProperty" name="type" referenceType="de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceType"/>
+    </categories>
+    <categories name="Interface" shortName="IF" description="Describes a Functional Electrical Interface connecting two InterfaceEnds" applicableFor="de.dlr.sc.virsat.model.extension.ps.ElementConfiguration de.dlr.sc.virsat.model.extension.ps.ElementOccurence">
+      <properties xsi:type="dvlm_cppd:ReferenceProperty" name="interfaceEndFrom" referenceType="de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+      <properties xsi:type="dvlm_cppd:ReferenceProperty" name="interfaceEndTo" referenceType="de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    </categories>
+    <structuralElements name="InterfaceTypeCollection" description="A Container to summarize all InterfaceTypes" isRootStructuralElement="true"/>
   </activeConcepts>
 </dvlm:Repository>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="9234f324-92e1-44fd-aeb2-c4e28dd1f1d3" name="Payload">
   <parent href="../ise_86079145-f633-4e8b-a4bf-b7c978799e6c/StructuralElement.dvlm#86079145-f633-4e8b-a4bf-b7c978799e6c"/>
-  <assignedDiscipline href="../RoleManagement.dvlm#5a500490-38e7-4aea-a315-654eeadb2824"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#b72354d5-aaee-4ce8-b43d-de1cf4b07656"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
   <children href="../ise_78a1ea60-f90d-4ff9-a45a-418b02a3a2c9/StructuralElement.dvlm#78a1ea60-f90d-4ff9-a45a-418b02a3a2c9"/>
 </dvlm_s:StructuralElementInstance>
