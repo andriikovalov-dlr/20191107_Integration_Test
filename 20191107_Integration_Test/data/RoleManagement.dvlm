@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dvlm_r:RoleManagement xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_r="http://www.virsat.sc.dlr.de/dvlm/v7/r" assignedDiscipline="5a500490-38e7-4aea-a315-654eeadb2824" uuid="1fcf4b76-e785-4642-bcb7-d8191fb30efe">
-  <disciplines uuid="5a500490-38e7-4aea-a315-654eeadb2824" name="System" user="qq"/>
+  <disciplines uuid="5a500490-38e7-4aea-a315-654eeadb2824" name="System" user="kova_an"/>
 </dvlm_r:RoleManagement>
