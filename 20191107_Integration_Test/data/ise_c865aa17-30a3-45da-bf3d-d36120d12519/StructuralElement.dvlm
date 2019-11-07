@@ -5,21 +5,21 @@
   <categoryAssignments uuid="b4b9ce00-f32d-4f99-9952-ee05b057ea9f" name="MassSummary">
     <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.MassSummary"/>
     <equationSection>
-      <equations resultText="7400.0">
+      <equations resultText="19400.0">
         <expression xsi:type="dvlm_calc:SetFunction" operator="summary">
           <typeDefinition xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
         </expression>
         <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="cf930be9-2c19-4e4a-b609-1a75e6ec803a" reference="a67d5ec3-b2c2-470f-97e1-580885b50364"/>
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.0"/>
       </equations>
-      <equations resultText="7830.0">
+      <equations resultText="22230.0">
         <expression xsi:type="dvlm_calc:SetFunction" operator="summary">
           <typeDefinition xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
         </expression>
         <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="2aedbbd5-c12a-481c-af10-c6e918f42c5e" reference="ce7fcbb9-cf1d-4515-8d3b-498a7f185079"/>
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.1"/>
       </equations>
-      <equations resultText="430.0">
+      <equations resultText="2830.0">
         <expression xsi:type="dvlm_calc:AdditionAndSubtraction" operator="-">
           <left xsi:type="dvlm_calc:ReferencedInput" reference="ce7fcbb9-cf1d-4515-8d3b-498a7f185079">
             <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.2/@expression/@left"/>
@@ -31,7 +31,7 @@
         <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="de6e6562-712d-4fa9-9c28-1fd4ba628ce1" reference="671eda25-280c-42fd-bc70-e6662617a380"/>
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.2"/>
       </equations>
-      <equations resultText="0.05810810810810811">
+      <equations resultText="0.14587628865979382">
         <expression xsi:type="dvlm_calc:MultiplicationAndDivision" operator="/">
           <left xsi:type="dvlm_calc:ReferencedInput" reference="671eda25-280c-42fd-bc70-e6662617a380">
             <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.3/@expression/@left"/>
@@ -44,19 +44,19 @@
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.3"/>
       </equations>
     </equationSection>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="a67d5ec3-b2c2-470f-97e1-580885b50364" value="7.4">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="a67d5ec3-b2c2-470f-97e1-580885b50364" value="19.400000000000002">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="ce7fcbb9-cf1d-4515-8d3b-498a7f185079" value="7.83">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="ce7fcbb9-cf1d-4515-8d3b-498a7f185079" value="22.23">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="671eda25-280c-42fd-bc70-e6662617a380" value="0.43">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="671eda25-280c-42fd-bc70-e6662617a380" value="2.83">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="2d5f711e-26a6-41de-9110-fb5b749e8edb" value="5.810810810810811">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="2d5f711e-26a6-41de-9110-fb5b749e8edb" value="14.587628865979383">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.margin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
@@ -68,4 +68,8 @@
   <children href="../ise_44a7ed7e-45c0-4057-b2fe-cad86acb66d4/StructuralElement.dvlm#44a7ed7e-45c0-4057-b2fe-cad86acb66d4"/>
   <children href="../ise_962a4694-c18c-4e7c-8576-1736b91ccef1/StructuralElement.dvlm#962a4694-c18c-4e7c-8576-1736b91ccef1"/>
   <children href="../ise_2076822f-8d44-47e6-9885-55860718de30/StructuralElement.dvlm#2076822f-8d44-47e6-9885-55860718de30"/>
+  <children href="../ise_3cdf207a-039f-4b86-9b30-34653f7de6ca/StructuralElement.dvlm#3cdf207a-039f-4b86-9b30-34653f7de6ca"/>
+  <children href="../ise_3c77e316-00d8-4bc5-9172-08d1114f3c3c/StructuralElement.dvlm#3c77e316-00d8-4bc5-9172-08d1114f3c3c"/>
+  <children href="../ise_7bace53d-ad9e-4e88-9ba7-bdfd5e373ea9/StructuralElement.dvlm#7bace53d-ad9e-4e88-9ba7-bdfd5e373ea9"/>
+  <children href="../ise_6a82b5cd-498d-49a4-8d7e-c43dbfaecd14/StructuralElement.dvlm#6a82b5cd-498d-49a4-8d7e-c43dbfaecd14"/>
 </dvlm_s:StructuralElementInstance>
