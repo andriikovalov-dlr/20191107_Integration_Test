@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="996b81dd-e12b-4815-b982-b7885d9e64b9" name="Camera">
+  <parent href="../ise_46e31912-ece9-444c-990c-10b586c29a7c/StructuralElement.dvlm#46e31912-ece9-444c-990c-10b586c29a7c"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#b72354d5-aaee-4ce8-b43d-de1cf4b07656"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>
+</dvlm_s:StructuralElementInstance>

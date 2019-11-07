@@ -3,4 +3,5 @@
   <parent href="../ise_0339cff7-9319-448c-9877-9483ecab4024/StructuralElement.dvlm#0339cff7-9319-448c-9877-9483ecab4024"/>
   <assignedDiscipline href="../RoleManagement.dvlm#b72354d5-aaee-4ce8-b43d-de1cf4b07656"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ProductTreeDomain"/>
+  <children href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#996b81dd-e12b-4815-b982-b7885d9e64b9"/>
 </dvlm_s:StructuralElementInstance>
