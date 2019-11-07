@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="6866d228-86b8-4c80-b56e-e79dba929a7f" name="Tank">
+  <parent href="../ise_3cb62358-b250-4fdf-8caa-72c71aecb66f/StructuralElement.dvlm#3cb62358-b250-4fdf-8caa-72c71aecb66f"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#2fabe69a-2454-4c11-a7e6-f49ade41d6ad"/>
+  <superSeis href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#f5d51dd1-baa8-4008-88f2-49effdaee4ef"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
+</dvlm_s:StructuralElementInstance>
