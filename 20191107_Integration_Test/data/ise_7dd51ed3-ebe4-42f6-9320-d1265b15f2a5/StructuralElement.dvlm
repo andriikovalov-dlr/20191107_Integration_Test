@@ -83,6 +83,15 @@
       <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#ff97b5a0-90e5-4c3a-9500-6dcdd2e15477"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="50868a0c-98bf-48e2-86f7-abbe72bcf2b9" isInherited="true" name="Power">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_12219a2c-9317-4b41-9cc0-905a4823b8af/StructuralElement.dvlm#c789b7ed-6448-4126-a250-7b40e6e3c819"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="01c9a39e-2956-468a-893b-9898b27b69dc" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_12219a2c-9317-4b41-9cc0-905a4823b8af/StructuralElement.dvlm#75092efe-eaeb-4833-a7cb-5ad33bff62cf"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
+    </propertyInstances>
+  </categoryAssignments>
   <superSeis href="../ise_12219a2c-9317-4b41-9cc0-905a4823b8af/StructuralElement.dvlm#12219a2c-9317-4b41-9cc0-905a4823b8af"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
 </dvlm_s:StructuralElementInstance>
