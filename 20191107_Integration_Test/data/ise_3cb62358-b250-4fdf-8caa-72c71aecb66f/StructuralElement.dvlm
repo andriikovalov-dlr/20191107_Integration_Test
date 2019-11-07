@@ -5,4 +5,6 @@
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
   <children href="../ise_06a675f4-1edd-476b-a633-f0ea7ad2d80b/StructuralElement.dvlm#06a675f4-1edd-476b-a633-f0ea7ad2d80b"/>
   <children href="../ise_6866d228-86b8-4c80-b56e-e79dba929a7f/StructuralElement.dvlm#6866d228-86b8-4c80-b56e-e79dba929a7f"/>
+  <children href="../ise_a989e7b0-f4e2-4fbf-b99d-ac79fd89dd6a/StructuralElement.dvlm#a989e7b0-f4e2-4fbf-b99d-ac79fd89dd6a"/>
+  <children href="../ise_4beebba3-e96f-47c8-9bbb-29e5844c7e74/StructuralElement.dvlm#4beebba3-e96f-47c8-9bbb-29e5844c7e74"/>
 </dvlm_s:StructuralElementInstance>
