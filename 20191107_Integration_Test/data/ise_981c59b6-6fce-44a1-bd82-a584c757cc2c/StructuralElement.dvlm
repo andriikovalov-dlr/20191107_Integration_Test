@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="981c59b6-6fce-44a1-bd82-a584c757cc2c" name="InterfaceTypeCollection">
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="981c59b6-6fce-44a1-bd82-a584c757cc2c" name="InterfaceTypeCollection">
   <assignedDiscipline href="../RoleManagement.dvlm#2fabe69a-2454-4c11-a7e6-f49ade41d6ad"/>
+  <categoryAssignments uuid="ff97b5a0-90e5-4c3a-9500-6dcdd2e15477" name="SpaceWire">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.DataInterfaceType"/>
+    <propertyInstances xsi:type="dvlm_cppi:ValuePropertyInstance" uuid="c6e0fc61-43d7-46b9-b18b-aa3b0343d156" override="true" value="Analog">
+      <type xsi:type="dvlm_cppd:StringProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.DataInterfaceType.electricalStandard"/>
+    </propertyInstances>
+  </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceTypeCollection"/>
 </dvlm_s:StructuralElementInstance>
