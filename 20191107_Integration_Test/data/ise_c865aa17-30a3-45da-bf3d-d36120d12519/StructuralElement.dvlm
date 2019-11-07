@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="c865aa17-30a3-45da-bf3d-d36120d12519" name="AOCS">
   <parent href="../ise_86079145-f633-4e8b-a4bf-b7c978799e6c/StructuralElement.dvlm#86079145-f633-4e8b-a4bf-b7c978799e6c"/>
-  <assignedDiscipline href="../RoleManagement.dvlm#5a500490-38e7-4aea-a315-654eeadb2824"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#b37578f5-6fc9-4707-a1f4-a4aadc659e08"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
 </dvlm_s:StructuralElementInstance>
