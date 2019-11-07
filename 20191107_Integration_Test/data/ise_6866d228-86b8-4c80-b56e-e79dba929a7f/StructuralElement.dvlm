@@ -7,8 +7,8 @@
     <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.MassEquipment"/>
     <equationSection isInherited="true">
       <superTis xsi:type="dvlm_calc:EquationSection" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection"/>
-      <equations isInherited="true" override="true" resultText="60000.0">
-        <superTis xsi:type="dvlm_calc:Equation" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#60000.0"/>
+      <equations isInherited="true" override="true" resultText="12000.0">
+        <superTis xsi:type="dvlm_calc:Equation" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#12000.0"/>
         <expression xsi:type="dvlm_calc:MultiplicationAndDivision" isInherited="true" operator="*">
           <superTis xsi:type="dvlm_calc:MultiplicationAndDivision" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.0/@expression"/>
           <left xsi:type="dvlm_calc:ReferencedInput" isInherited="true" reference="d928f917-64c0-48b0-8a58-84e69f4e6c20">
@@ -34,8 +34,8 @@
         </result>
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.0"/>
       </equations>
-      <equations isInherited="true" override="true" resultText="10000.0">
-        <superTis xsi:type="dvlm_calc:Equation" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#10000.0"/>
+      <equations isInherited="true" override="true" resultText="2000.0">
+        <superTis xsi:type="dvlm_calc:Equation" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#2000.0"/>
         <expression xsi:type="dvlm_calc:AdditionAndSubtraction" isInherited="true" operator="-">
           <superTis xsi:type="dvlm_calc:AdditionAndSubtraction" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.1/@expression"/>
           <left xsi:type="dvlm_calc:ReferencedInput" isInherited="true" reference="2d6151ed-2675-4558-8657-c6d4a1c32975">
@@ -53,17 +53,17 @@
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.1"/>
       </equations>
     </equationSection>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="d928f917-64c0-48b0-8a58-84e69f4e6c20" isInherited="true" value="50.0">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="d928f917-64c0-48b0-8a58-84e69f4e6c20" isInherited="true" value="10.0">
       <superTis xsi:type="dvlm_cppi:UnitValuePropertyInstance" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#36b5be3b-9b60-475d-8910-f2eb3bcb301e"/>
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="2d6151ed-2675-4558-8657-c6d4a1c32975" isInherited="true" override="true" value="60.0">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="2d6151ed-2675-4558-8657-c6d4a1c32975" isInherited="true" override="true" value="12.0">
       <superTis xsi:type="dvlm_cppi:UnitValuePropertyInstance" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#168ff3f4-7a8b-45dd-9cae-aa001007661b"/>
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="937b0657-d7a9-4351-8557-76966e29e1ef" isInherited="true" override="true" value="10.0">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="937b0657-d7a9-4351-8557-76966e29e1ef" isInherited="true" override="true" value="2.0">
       <superTis xsi:type="dvlm_cppi:UnitValuePropertyInstance" href="../ise_f5d51dd1-baa8-4008-88f2-49effdaee4ef/StructuralElement.dvlm#0e63744c-0e18-4791-b1a8-c2e04161447d"/>
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>

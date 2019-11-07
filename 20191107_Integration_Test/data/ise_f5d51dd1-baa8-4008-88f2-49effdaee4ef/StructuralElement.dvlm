@@ -5,7 +5,7 @@
   <categoryAssignments uuid="6aad2019-52e9-46de-a8dc-1a86f574adf3" name="MassEquipment">
     <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.MassEquipment"/>
     <equationSection>
-      <equations resultText="60000.0">
+      <equations resultText="12000.0">
         <expression xsi:type="dvlm_calc:MultiplicationAndDivision" operator="*">
           <left xsi:type="dvlm_calc:ReferencedInput" reference="36b5be3b-9b60-475d-8910-f2eb3bcb301e">
             <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.0/@expression/@left"/>
@@ -22,7 +22,7 @@
         <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="377da692-6728-42df-ac41-e879e6333ea2" reference="168ff3f4-7a8b-45dd-9cae-aa001007661b"/>
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.0"/>
       </equations>
-      <equations resultText="10000.0">
+      <equations resultText="2000.0">
         <expression xsi:type="dvlm_calc:AdditionAndSubtraction" operator="-">
           <left xsi:type="dvlm_calc:ReferencedInput" reference="168ff3f4-7a8b-45dd-9cae-aa001007661b">
             <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.1/@expression/@left"/>
@@ -35,15 +35,15 @@
         <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.1"/>
       </equations>
     </equationSection>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="36b5be3b-9b60-475d-8910-f2eb3bcb301e" override="true" value="50.0">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="36b5be3b-9b60-475d-8910-f2eb3bcb301e" override="true" value="10.0">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="168ff3f4-7a8b-45dd-9cae-aa001007661b" value="60.0">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="168ff3f4-7a8b-45dd-9cae-aa001007661b" value="12.0">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
-    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="0e63744c-0e18-4791-b1a8-c2e04161447d" value="10.0">
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="0e63744c-0e18-4791-b1a8-c2e04161447d" value="2.0">
       <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
     </propertyInstances>
