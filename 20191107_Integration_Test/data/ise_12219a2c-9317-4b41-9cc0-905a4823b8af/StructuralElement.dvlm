@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="12219a2c-9317-4b41-9cc0-905a4823b8af" name="SunSensor">
+  <parent href="../ise_ab34f45e-bc0c-4c8b-8dcf-93aed61663e5/StructuralElement.dvlm#ab34f45e-bc0c-4c8b-8dcf-93aed61663e5"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#b37578f5-6fc9-4707-a1f4-a4aadc659e08"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>
+</dvlm_s:StructuralElementInstance>

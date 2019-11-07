@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="962a4694-c18c-4e7c-8576-1736b91ccef1" name="GPS_Ant1">
+  <parent href="../ise_c865aa17-30a3-45da-bf3d-d36120d12519/StructuralElement.dvlm#c865aa17-30a3-45da-bf3d-d36120d12519"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#b37578f5-6fc9-4707-a1f4-a4aadc659e08"/>
+  <superSeis href="../ise_378a302a-44a9-46ae-afee-61f288863532/StructuralElement.dvlm#378a302a-44a9-46ae-afee-61f288863532"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
+</dvlm_s:StructuralElementInstance>

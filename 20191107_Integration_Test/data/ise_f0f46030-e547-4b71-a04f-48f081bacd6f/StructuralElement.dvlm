@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="f0f46030-e547-4b71-a04f-48f081bacd6f" name="MTQ1">
+  <parent href="../ise_c865aa17-30a3-45da-bf3d-d36120d12519/StructuralElement.dvlm#c865aa17-30a3-45da-bf3d-d36120d12519"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#b37578f5-6fc9-4707-a1f4-a4aadc659e08"/>
+  <superSeis href="../ise_0fc932b2-d5d5-4abd-b91e-76ba94394554/StructuralElement.dvlm#0fc932b2-d5d5-4abd-b91e-76ba94394554"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
+</dvlm_s:StructuralElementInstance>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="06a675f4-1edd-476b-a633-f0ea7ad2d80b" name="Body">
+  <parent href="../ise_3cb62358-b250-4fdf-8caa-72c71aecb66f/StructuralElement.dvlm#3cb62358-b250-4fdf-8caa-72c71aecb66f"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#2fabe69a-2454-4c11-a7e6-f49ade41d6ad"/>
+  <superSeis href="../ise_dcb700b8-bb84-4735-a9d7-f16fd9d9cca3/StructuralElement.dvlm#dcb700b8-bb84-4735-a9d7-f16fd9d9cca3"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
+</dvlm_s:StructuralElementInstance>
