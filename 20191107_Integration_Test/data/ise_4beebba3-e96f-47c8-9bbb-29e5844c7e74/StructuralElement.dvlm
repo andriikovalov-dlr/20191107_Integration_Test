@@ -74,6 +74,15 @@
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="b7e78483-0192-44e3-8fbd-242d1e623d13" isInherited="true" name="InterfaceEnd">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_427aadb6-e898-4f6d-9f39-fcfaa969445c/StructuralElement.dvlm#62cac532-f1bc-4140-b295-bdaf56738e91"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="5abd07dd-6c1b-42de-a869-b52a38350b3a" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_427aadb6-e898-4f6d-9f39-fcfaa969445c/StructuralElement.dvlm#86890391-6c5e-4ce9-9cf4-cd21482a6c6e"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
+    </propertyInstances>
+  </categoryAssignments>
   <superSeis href="../ise_427aadb6-e898-4f6d-9f39-fcfaa969445c/StructuralElement.dvlm#427aadb6-e898-4f6d-9f39-fcfaa969445c"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
 </dvlm_s:StructuralElementInstance>
