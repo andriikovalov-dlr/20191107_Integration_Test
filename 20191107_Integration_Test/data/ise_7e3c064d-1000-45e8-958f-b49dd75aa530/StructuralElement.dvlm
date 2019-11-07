@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="7e3c064d-1000-45e8-958f-b49dd75aa530" name="SCOSASystem">
+  <parent href="../ise_8198cd8d-aaa1-419e-8d09-af03bbde97a5/StructuralElement.dvlm#8198cd8d-aaa1-419e-8d09-af03bbde97a5"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#efefba53-aeb2-4e98-833f-c0f311d307c0"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
+  <children href="../ise_dffe9e7c-556b-427b-8384-d6de9a84714a/StructuralElement.dvlm#dffe9e7c-556b-427b-8384-d6de9a84714a"/>
+  <children href="../ise_f9a2a533-ecda-4b99-b458-d4d7508cc8b8/StructuralElement.dvlm#f9a2a533-ecda-4b99-b458-d4d7508cc8b8"/>
+  <children href="../ise_81371755-deee-4327-9bf3-a235297b71e6/StructuralElement.dvlm#81371755-deee-4327-9bf3-a235297b71e6"/>
+  <children href="../ise_e7b8eca8-b656-4e30-894b-30ed62556c70/StructuralElement.dvlm#e7b8eca8-b656-4e30-894b-30ed62556c70"/>
+  <children href="../ise_8c5858d9-5036-4b82-a255-107bf675029e/StructuralElement.dvlm#8c5858d9-5036-4b82-a255-107bf675029e"/>
+  <children href="../ise_8d509632-7433-49fc-9083-3449a66c302a/StructuralElement.dvlm#8d509632-7433-49fc-9083-3449a66c302a"/>
+</dvlm_s:StructuralElementInstance>

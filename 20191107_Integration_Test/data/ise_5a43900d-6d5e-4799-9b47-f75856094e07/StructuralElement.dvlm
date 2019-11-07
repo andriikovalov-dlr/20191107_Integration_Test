@@ -3,4 +3,6 @@
   <parent href="../ise_0339cff7-9319-448c-9877-9483ecab4024/StructuralElement.dvlm#0339cff7-9319-448c-9877-9483ecab4024"/>
   <assignedDiscipline href="../RoleManagement.dvlm#efefba53-aeb2-4e98-833f-c0f311d307c0"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ProductTreeDomain"/>
+  <children href="../ise_cbf4f5ee-5493-4353-89a7-7260a40eecc3/StructuralElement.dvlm#cbf4f5ee-5493-4353-89a7-7260a40eecc3"/>
+  <children href="../ise_def3cd04-aead-47bc-832b-9187adbac703/StructuralElement.dvlm#def3cd04-aead-47bc-832b-9187adbac703"/>
 </dvlm_s:StructuralElementInstance>
