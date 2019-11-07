@@ -52,5 +52,17 @@
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="bf7491f5-4e67-4781-8e68-339939271a08" name="PwrPCDU_1">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="22eb7db5-ffe0-4d19-8741-e1b078d303ec">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="c796321d-1d43-4981-8f12-5401276378bf" name="PwrPCDU_2">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="56002f44-79d4-40ed-b89a-907ad4e95360">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+    </propertyInstances>
+  </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>
 </dvlm_s:StructuralElementInstance>

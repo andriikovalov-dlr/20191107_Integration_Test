@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="86079145-f633-4e8b-a4bf-b7c978799e6c" name="AwesomeSat">
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_calc="http://www.virsat.sc.dlr.de/dvlm/v7/calc" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_qudv="http://www.virsat.sc.dlr.de/dvlm/v7/qudv" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="86079145-f633-4e8b-a4bf-b7c978799e6c" name="AwesomeSat">
   <assignedDiscipline href="../RoleManagement.dvlm#5a500490-38e7-4aea-a315-654eeadb2824"/>
+  <categoryAssignments uuid="f19f4d14-4452-46aa-bf65-96db3e488c0a" name="MassSummary">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.MassSummary"/>
+    <equationSection>
+      <equations resultText="0.0">
+        <expression xsi:type="dvlm_calc:SetFunction" operator="summary">
+          <typeDefinition xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="0f15ae58-4e8e-4892-af07-66b94675c0a5" reference="344b2fd2-f806-404a-bbf2-1b8b1f833b2d"/>
+        <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.0"/>
+      </equations>
+      <equations resultText="0.0">
+        <expression xsi:type="dvlm_calc:SetFunction" operator="summary">
+          <typeDefinition xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="e790174a-e93b-4f28-95d9-3f91589d0fd7" reference="cb66943f-925b-4cf7-b86d-800f29093a64"/>
+        <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.1"/>
+      </equations>
+      <equations resultText="0.0">
+        <expression xsi:type="dvlm_calc:AdditionAndSubtraction" operator="-">
+          <left xsi:type="dvlm_calc:ReferencedInput" reference="cb66943f-925b-4cf7-b86d-800f29093a64">
+            <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.2/@expression/@left"/>
+          </left>
+          <right xsi:type="dvlm_calc:ReferencedInput" reference="344b2fd2-f806-404a-bbf2-1b8b1f833b2d">
+            <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.2/@expression/@right"/>
+          </right>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="f35468a6-2eb0-4ecf-abbc-b1dc155fe03b" reference="fc14149d-24c5-43da-8cbe-6c333a4362ef"/>
+        <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.2"/>
+      </equations>
+      <equations resultText="NaN">
+        <expression xsi:type="dvlm_calc:MultiplicationAndDivision" operator="/">
+          <left xsi:type="dvlm_calc:ReferencedInput" reference="fc14149d-24c5-43da-8cbe-6c333a4362ef">
+            <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.3/@expression/@left"/>
+          </left>
+          <right xsi:type="dvlm_calc:ReferencedInput" reference="344b2fd2-f806-404a-bbf2-1b8b1f833b2d">
+            <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.3/@expression/@right"/>
+          </right>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="78909ef2-457a-4e52-a47a-31d87b7be1ad" reference="699f7b21-2635-4d85-a91f-1c4684e02516"/>
+        <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.2/@equationDefinitions.3"/>
+      </equations>
+    </equationSection>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="344b2fd2-f806-404a-bbf2-1b8b1f833b2d" value="0.0">
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="cb66943f-925b-4cf7-b86d-800f29093a64" value="0.0">
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="fc14149d-24c5-43da-8cbe-6c333a4362ef" value="0.0">
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="699f7b21-2635-4d85-a91f-1c4684e02516" value="NaN">
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.margin"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
+    </propertyInstances>
+  </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ConfigurationTree"/>
   <children href="../ise_c865aa17-30a3-45da-bf3d-d36120d12519/StructuralElement.dvlm#c865aa17-30a3-45da-bf3d-d36120d12519"/>
   <children href="../ise_9234f324-92e1-44fd-aeb2-c4e28dd1f1d3/StructuralElement.dvlm#9234f324-92e1-44fd-aeb2-c4e28dd1f1d3"/>

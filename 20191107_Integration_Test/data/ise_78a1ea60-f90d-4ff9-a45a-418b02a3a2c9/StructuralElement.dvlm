@@ -74,6 +74,22 @@
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="ab1eb582-246f-4899-905c-18f4f3135597" isInherited="true" name="PwrPCDU_1">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#bf7491f5-4e67-4781-8e68-339939271a08"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="a513d088-0f76-4847-adea-4d3cd7d5b5c6" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#22eb7db5-ffe0-4d19-8741-e1b078d303ec"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="bc08e826-4c06-442c-8f94-81f205320e7d" isInherited="true" name="PwrPCDU_2">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#c796321d-1d43-4981-8f12-5401276378bf"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="1d3e87e7-283c-4f45-94cb-8d943291afd6" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#56002f44-79d4-40ed-b89a-907ad4e95360"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+    </propertyInstances>
+  </categoryAssignments>
   <superSeis href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#996b81dd-e12b-4815-b982-b7885d9e64b9"/>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
 </dvlm_s:StructuralElementInstance>
