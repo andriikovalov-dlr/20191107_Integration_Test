@@ -80,6 +80,7 @@
     <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="a513d088-0f76-4847-adea-4d3cd7d5b5c6" isInherited="true">
       <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#22eb7db5-ffe0-4d19-8741-e1b078d303ec"/>
       <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
     </propertyInstances>
   </categoryAssignments>
   <categoryAssignments uuid="bc08e826-4c06-442c-8f94-81f205320e7d" isInherited="true" name="PwrPCDU_2">
@@ -88,6 +89,7 @@
     <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="1d3e87e7-283c-4f45-94cb-8d943291afd6" isInherited="true">
       <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#56002f44-79d4-40ed-b89a-907ad4e95360"/>
       <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
     </propertyInstances>
   </categoryAssignments>
   <categoryAssignments uuid="217ea611-f077-4f42-9e43-f403a196a3a7" isInherited="true" name="Data">
@@ -96,6 +98,7 @@
     <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="2d6e5054-c442-442f-8f93-7db750975b5e" isInherited="true">
       <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#d4348ab6-f44c-4444-8d7d-24897a83344e"/>
       <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#ff97b5a0-90e5-4c3a-9500-6dcdd2e15477"/>
     </propertyInstances>
   </categoryAssignments>
   <superSeis href="../ise_996b81dd-e12b-4815-b982-b7885d9e64b9/StructuralElement.dvlm#996b81dd-e12b-4815-b982-b7885d9e64b9"/>
