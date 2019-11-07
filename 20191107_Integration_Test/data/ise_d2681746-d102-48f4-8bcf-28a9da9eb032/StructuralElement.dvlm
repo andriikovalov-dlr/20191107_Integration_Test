@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="d2681746-d102-48f4-8bcf-28a9da9eb032" name="FEA">
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="d2681746-d102-48f4-8bcf-28a9da9eb032" name="FEA">
   <parent href="../ise_86079145-f633-4e8b-a4bf-b7c978799e6c/StructuralElement.dvlm#86079145-f633-4e8b-a4bf-b7c978799e6c"/>
   <assignedDiscipline href="../RoleManagement.dvlm#2fabe69a-2454-4c11-a7e6-f49ade41d6ad"/>
+  <categoryAssignments uuid="8d6d5752-32a5-4e6c-80d6-9de222432e68" name="PwrBattery_1PWR_PCDU">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="b6bb88fb-c08c-4858-94ef-fc2cf8f59900">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#76049d57-bf1c-4b78-aa5a-5750e46f4593"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="1cdddebb-627a-4eda-9b61-80189a8be044">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_ff85964d-90bb-4e66-be86-0204416a6a3a/StructuralElement.dvlm#1ad9689e-768a-4ba9-974c-ffe62abf0170"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="06bed250-7be2-4f8c-8b7f-93472a866ef2" name="PwrBattery_2PWR_PCDU">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="3c4fcd1b-afc4-4968-9993-965396c353f3">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#90e6b1e7-60c4-4814-959c-8b518b8cb928"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="444b4b6a-5984-4a03-8cc2-520b77ad5e32">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_24733df6-1bec-4357-aa65-bdcc335c4e9e/StructuralElement.dvlm#5b67f0e3-b449-4f19-b3e6-f4c80c659ec5"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="6d35de86-9455-4448-8a4f-06928b3d64cb" name="PwrBattery_3PWR_PCDU">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="67406d48-3ec4-45e8-9e94-658a5999b96d">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#8a83e564-aea6-4653-82bc-9391ef41bb68"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="c2be21f7-16ff-4402-9606-23d579c2eaf7">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_1522ab45-6085-4468-a5c4-0468de0eb8f2/StructuralElement.dvlm#17e6ec9b-50eb-4f92-b1c4-d462d1814612"/>
+    </propertyInstances>
+  </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
 </dvlm_s:StructuralElementInstance>

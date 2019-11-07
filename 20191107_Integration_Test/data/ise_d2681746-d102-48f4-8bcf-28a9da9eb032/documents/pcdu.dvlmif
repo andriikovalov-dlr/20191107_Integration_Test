@@ -1,6 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="interfaces" name="pcdu" snapToGrid="true" version="0.16.0">
   <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="ff85964d-90bb-4e66-be86-0204416a6a3a"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="438" height="100" x="100" y="40">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" transparency="0.0" width="418" height="80" x="10" y="10" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" filled="false" transparency="0.0">
+        <points x="10" y="47"/>
+        <points x="428" y="47"/>
+      </graphicsAlgorithm>
+    </children>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="418" height="16" x="10" y="10" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="«ElementConfiguration»"/>
+    </children>
+    <children visible="true">
+      <properties key="independentObject" value="ff85964d-90bb-4e66-be86-0204416a6a3a"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="418" height="16" x="10" y="26" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Battery_1"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="1ad9689e-768a-4ba9-974c-ffe62abf0170"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="217" y="60">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="201" height="20" font="//@fonts.0" horizontalAlignment="ALIGNMENT_RIGHT" value="PWR_PCDU : HighVoltageCable"/>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="independentObject" value="1ad9689e-768a-4ba9-974c-ffe62abf0170"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" width="20" height="20" x="201"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.0/@children.3/@children.0/@graphicsAlgorithm">
+          <properties key="independentObject" value="1ad9689e-768a-4ba9-974c-ffe62abf0170"/>
+        </anchors>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="24733df6-1bec-4357-aa65-bdcc335c4e9e"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="438" height="100" x="580" y="40">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" transparency="0.0" width="418" height="80" x="10" y="10" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" filled="false" transparency="0.0">
+        <points x="10" y="47"/>
+        <points x="428" y="47"/>
+      </graphicsAlgorithm>
+    </children>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="418" height="16" x="10" y="10" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="«ElementConfiguration»"/>
+    </children>
+    <children visible="true">
+      <properties key="independentObject" value="24733df6-1bec-4357-aa65-bdcc335c4e9e"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="418" height="16" x="10" y="26" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Battery_2"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="5b67f0e3-b449-4f19-b3e6-f4c80c659ec5"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" y="60">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="201" height="20" x="20" font="//@fonts.0" value="PWR_PCDU : HighVoltageCable"/>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="independentObject" value="5b67f0e3-b449-4f19-b3e6-f4c80c659ec5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" width="20" height="20"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.1/@children.3/@children.0/@graphicsAlgorithm">
+          <properties key="independentObject" value="5b67f0e3-b449-4f19-b3e6-f4c80c659ec5"/>
+        </anchors>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="1522ab45-6085-4468-a5c4-0468de0eb8f2"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="438" height="100" x="1060" y="40">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" transparency="0.0" width="418" height="80" x="10" y="10" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" filled="false" transparency="0.0">
+        <points x="10" y="47"/>
+        <points x="428" y="47"/>
+      </graphicsAlgorithm>
+    </children>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="418" height="16" x="10" y="10" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="«ElementConfiguration»"/>
+    </children>
+    <children visible="true">
+      <properties key="independentObject" value="1522ab45-6085-4468-a5c4-0468de0eb8f2"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="418" height="16" x="10" y="26" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Battery_3"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="17e6ec9b-50eb-4f92-b1c4-d462d1814612"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" y="60">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="201" height="20" x="20" font="//@fonts.0" value="PWR_PCDU : HighVoltageCable"/>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="independentObject" value="17e6ec9b-50eb-4f92-b1c4-d462d1814612"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" width="20" height="20"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.0/@graphicsAlgorithm">
+          <properties key="independentObject" value="17e6ec9b-50eb-4f92-b1c4-d462d1814612"/>
+        </anchors>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="0b25045e-0ba1-4ba3-ba6a-55631fe95d34"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="458" height="160" x="630" y="260">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" transparency="0.0" width="438" height="140" x="10" y="10" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" filled="false" transparency="0.0">
+        <points x="10" y="47"/>
+        <points x="448" y="47"/>
+      </graphicsAlgorithm>
+    </children>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="438" height="16" x="10" y="10" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="«ElementConfiguration»"/>
+    </children>
+    <children visible="true">
+      <properties key="independentObject" value="0b25045e-0ba1-4ba3-ba6a-55631fe95d34"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="438" height="16" x="10" y="26" font="//@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="PCDU"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="76049d57-bf1c-4b78-aa5a-5750e46f4593"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="231" height="20" y="120">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="211" height="20" x="20" font="//@fonts.0" value="PwrBattery_1 : HighVoltageCable"/>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="independentObject" value="76049d57-bf1c-4b78-aa5a-5750e46f4593"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" width="20" height="20"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.3/@children.3/@children.0/@graphicsAlgorithm">
+          <properties key="independentObject" value="76049d57-bf1c-4b78-aa5a-5750e46f4593"/>
+        </anchors>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="8a83e564-aea6-4653-82bc-9391ef41bb68"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="231" height="20" y="60">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="211" height="20" x="20" font="//@fonts.0" value="PwrBattery_3 : HighVoltageCable"/>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="independentObject" value="8a83e564-aea6-4653-82bc-9391ef41bb68"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" width="20" height="20"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.2" referencedGraphicsAlgorithm="//@children.3/@children.4/@children.0/@graphicsAlgorithm">
+          <properties key="independentObject" value="8a83e564-aea6-4653-82bc-9391ef41bb68"/>
+        </anchors>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="90e6b1e7-60c4-4814-959c-8b518b8cb928"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="231" height="20" y="90">
+        <graphicsAlgorithmChildren xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" width="211" height="20" x="20" font="//@fonts.0" value="PwrBattery_2 : HighVoltageCable"/>
+      </graphicsAlgorithm>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="independentObject" value="90e6b1e7-60c4-4814-959c-8b518b8cb928"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.3" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" width="20" height="20"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.3/@children.5/@children.0/@graphicsAlgorithm">
+          <properties key="independentObject" value="90e6b1e7-60c4-4814-959c-8b518b8cb928"/>
+        </anchors>
+      </children>
+    </children>
+  </children>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@children.3/@children.0/@anchors.0" end="//@children.0/@children.3/@children.0/@anchors.0">
+    <properties key="independentObject" value="8d6d5752-32a5-4e6c-80d6-9de222432e68"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
+      <properties key="independentObject" value="8d6d5752-32a5-4e6c-80d6-9de222432e68"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" x="10" font="//@fonts.1" value="PwrBattery_1PWR_PCDU"/>
+    </connectionDecorators>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@children.5/@children.0/@anchors.0" end="//@children.1/@children.3/@children.0/@anchors.0">
+    <properties key="independentObject" value="06bed250-7be2-4f8c-8b7f-93472a866ef2"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
+      <properties key="independentObject" value="06bed250-7be2-4f8c-8b7f-93472a866ef2"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" x="10" font="//@fonts.1" value="PwrBattery_2PWR_PCDU"/>
+    </connectionDecorators>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@children.4/@children.0/@anchors.0" end="//@children.2/@children.3/@children.0/@anchors.0">
+    <properties key="independentObject" value="6d35de86-9455-4448-8a4f-06928b3d64cb"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
+      <properties key="independentObject" value="6d35de86-9455-4448-8a4f-06928b3d64cb"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineWidth="1" filled="false" transparency="0.0" x="10" font="//@fonts.1" value="PwrBattery_3PWR_PCDU"/>
+    </connectionDecorators>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
   <colors red="227" green="238" blue="249"/>
   <colors red="255" green="255" blue="255"/>
+  <colors red="98" green="131" blue="167"/>
+  <colors red="187" green="218" blue="247"/>
+  <colors/>
+  <fonts name="Arial" size="8" bold="true"/>
+  <fonts name="Arial" size="8"/>
 </pi:Diagram>
