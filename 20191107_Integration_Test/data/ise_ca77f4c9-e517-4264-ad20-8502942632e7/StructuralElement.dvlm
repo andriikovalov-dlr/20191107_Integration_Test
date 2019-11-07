@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="ca77f4c9-e517-4264-ad20-8502942632e7" name="Power">
+  <parent href="../ise_0339cff7-9319-448c-9877-9483ecab4024/StructuralElement.dvlm#0339cff7-9319-448c-9877-9483ecab4024"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#37b4e472-80a1-41c3-8b56-83c7ae20d188"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ProductTreeDomain"/>
+</dvlm_s:StructuralElementInstance>
