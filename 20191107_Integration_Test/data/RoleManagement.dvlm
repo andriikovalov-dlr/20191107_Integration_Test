@@ -2,4 +2,9 @@
 <dvlm_r:RoleManagement xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_r="http://www.virsat.sc.dlr.de/dvlm/v7/r" assignedDiscipline="8b2e2119-cddf-4995-a325-5ddf9ffd13f5" uuid="1fcf4b76-e785-4642-bcb7-d8191fb30efe">
   <disciplines uuid="5a500490-38e7-4aea-a315-654eeadb2824" name="System" user="muel_s8"/>
   <disciplines uuid="8b2e2119-cddf-4995-a325-5ddf9ffd13f5" name="RoleManager" user="fran_tb"/>
+  <disciplines uuid="b37578f5-6fc9-4707-a1f4-a4aadc659e08" name="AOCS" user="kova_an"/>
+  <disciplines uuid="b72354d5-aaee-4ce8-b43d-de1cf4b07656" name="Payload" user="muel_s8"/>
+  <disciplines uuid="efefba53-aeb2-4e98-833f-c0f311d307c0" name="DH" user="fran_tb"/>
+  <disciplines uuid="2fabe69a-2454-4c11-a7e6-f49ade41d6ad" name="Structure" user="amme_jo"/>
+  <disciplines uuid="37b4e472-80a1-41c3-8b56-83c7ae20d188" name="Power" user="gefk_an"/>
 </dvlm_r:RoleManagement>
