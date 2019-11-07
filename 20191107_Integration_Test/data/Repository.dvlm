@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm="http://www.virsat.sc.dlr.de/dvlm/v7" uuid="fa4c3026-b6b7-4fd9-947a-bbff2571e957">
+  <assignedDiscipline href="RoleManagement.dvlm#5a500490-38e7-4aea-a315-654eeadb2824"/>
+  <roleManagement href="RoleManagement.dvlm#1fcf4b76-e785-4642-bcb7-d8191fb30efe"/>
+  <unitManagement href="UnitManagement.dvlm#27d924c8-8549-4af8-bbbd-9971ee3d65b9"/>
+</dvlm:Repository>
