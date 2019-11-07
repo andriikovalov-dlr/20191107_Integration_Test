@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="0b25045e-0ba1-4ba3-ba6a-55631fe95d34" name="PCDU">
+  <parent href="../ise_be7db20f-58a4-451a-9207-fc9e4667d404/StructuralElement.dvlm#be7db20f-58a4-451a-9207-fc9e4667d404"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#37b4e472-80a1-41c3-8b56-83c7ae20d188"/>
+  <categoryAssignments uuid="76049d57-bf1c-4b78-aa5a-5750e46f4593" isInherited="true" name="PwrBattery_1">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_6079d8ef-0790-4977-bfed-3ea4ba386cad/StructuralElement.dvlm#596e4059-d492-4ea9-b385-4bfa4ff481b6"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="11841932-6755-40b6-93c3-4c5db06ceb82" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_6079d8ef-0790-4977-bfed-3ea4ba386cad/StructuralElement.dvlm#91314b46-9b29-401e-964a-21c58f953430"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="8a83e564-aea6-4653-82bc-9391ef41bb68" isInherited="true" name="PwrBattery_3">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_6079d8ef-0790-4977-bfed-3ea4ba386cad/StructuralElement.dvlm#46f01a0e-8bba-4557-a956-efca2b2de760"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="c84fefeb-667b-47d6-a37d-e5dcb18dbb58" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_6079d8ef-0790-4977-bfed-3ea4ba386cad/StructuralElement.dvlm#3f8a9135-a3c3-43fc-86cb-e139e28a0bf3"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="90e6b1e7-60c4-4814-959c-8b518b8cb928" isInherited="true" name="PwrBattery_2">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_6079d8ef-0790-4977-bfed-3ea4ba386cad/StructuralElement.dvlm#0879451b-9414-4530-a2a4-ddcc5de82ed5"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="563b7532-9fde-43b9-be9d-b2adfbb5a4d9" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_6079d8ef-0790-4977-bfed-3ea4ba386cad/StructuralElement.dvlm#ad846ffe-bdae-4657-b47d-f5223ed30179"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <superSeis href="../ise_6079d8ef-0790-4977-bfed-3ea4ba386cad/StructuralElement.dvlm#6079d8ef-0790-4977-bfed-3ea4ba386cad"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
+</dvlm_s:StructuralElementInstance>
