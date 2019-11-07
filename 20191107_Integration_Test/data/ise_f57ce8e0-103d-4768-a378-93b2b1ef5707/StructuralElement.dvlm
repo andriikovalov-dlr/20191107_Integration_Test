@@ -54,8 +54,9 @@
   </categoryAssignments>
   <categoryAssignments uuid="ec031508-4619-47f7-a259-cf8538434023" name="PWR_PCDU">
     <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
-    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="cf82dc98-d6c4-441e-9d5b-d904ceab070d">
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="cf82dc98-d6c4-441e-9d5b-d904ceab070d" override="true">
       <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
     </propertyInstances>
   </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementDefinition"/>

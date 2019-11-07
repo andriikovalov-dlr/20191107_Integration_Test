@@ -80,6 +80,7 @@
     <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="01a18b65-5a3c-4332-a5db-7c1bfd79bb77" isInherited="true">
       <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_f57ce8e0-103d-4768-a378-93b2b1ef5707/StructuralElement.dvlm#cf82dc98-d6c4-441e-9d5b-d904ceab070d"/>
       <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#15699e4a-5764-4f2a-a281-14b176d11e09"/>
     </propertyInstances>
   </categoryAssignments>
   <superSeis href="../ise_f57ce8e0-103d-4768-a378-93b2b1ef5707/StructuralElement.dvlm#f57ce8e0-103d-4768-a378-93b2b1ef5707"/>
