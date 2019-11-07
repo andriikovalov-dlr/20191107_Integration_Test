@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="981c59b6-6fce-44a1-bd82-a584c757cc2c" name="InterfaceTypeCollection">
+  <assignedDiscipline href="../RoleManagement.dvlm#5a500490-38e7-4aea-a315-654eeadb2824"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceTypeCollection"/>
+</dvlm_s:StructuralElementInstance>
