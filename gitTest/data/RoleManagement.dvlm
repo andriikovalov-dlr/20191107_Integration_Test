@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_r:RoleManagement xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dvlm_r="http://www.virsat.sc.dlr.de/dvlm/v7/r" assignedDiscipline="ba253713-97eb-44fd-b455-529dd089f9ca" uuid="cd75f9b6-eb72-465a-b122-409be6242562">
+  <disciplines uuid="ba253713-97eb-44fd-b455-529dd089f9ca" name="System" user="muel_s8"/>
+</dvlm_r:RoleManagement>
