@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvlm_s:StructuralElementInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dvlm_calc="http://www.virsat.sc.dlr.de/dvlm/v7/calc" xmlns:dvlm_cp="http://www.virsat.sc.dlr.de/dvlm/v7/cp" xmlns:dvlm_cppd="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppd" xmlns:dvlm_cppi="http://www.virsat.sc.dlr.de/dvlm/v7/cp/cppi" xmlns:dvlm_qudv="http://www.virsat.sc.dlr.de/dvlm/v7/qudv" xmlns:dvlm_s="http://www.virsat.sc.dlr.de/dvlm/v7/s" uuid="6a82b5cd-498d-49a4-8d7e-c43dbfaecd14" name="Thruster4">
+  <parent href="../ise_c865aa17-30a3-45da-bf3d-d36120d12519/StructuralElement.dvlm#c865aa17-30a3-45da-bf3d-d36120d12519"/>
+  <assignedDiscipline href="../RoleManagement.dvlm#b37578f5-6fc9-4707-a1f4-a4aadc659e08"/>
+  <categoryAssignments uuid="ad72a0ee-913d-4ef2-95ae-ee9899b3c4a2" isInherited="true" name="MassEquipment">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#b6b142b7-4b5d-4e31-b3f6-03681e6ce35e"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.MassEquipment"/>
+    <equationSection isInherited="true">
+      <superTis xsi:type="dvlm_calc:EquationSection" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection"/>
+      <equations isInherited="true" override="true" resultText="3600.0">
+        <superTis xsi:type="dvlm_calc:Equation" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#3600.0"/>
+        <expression xsi:type="dvlm_calc:MultiplicationAndDivision" isInherited="true" operator="*">
+          <superTis xsi:type="dvlm_calc:MultiplicationAndDivision" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.0/@expression"/>
+          <left xsi:type="dvlm_calc:ReferencedInput" isInherited="true" reference="212e67d8-3840-470b-b9ea-e6eb189c55a9">
+            <superTis xsi:type="dvlm_calc:ReferencedInput" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.0/@expression/@left"/>
+            <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.0/@expression/@left"/>
+          </left>
+          <right xsi:type="dvlm_calc:Parenthesis" isInherited="true">
+            <superTis xsi:type="dvlm_calc:Parenthesis" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.0/@expression/@right"/>
+            <right xsi:type="dvlm_calc:AdditionAndSubtraction" isInherited="true">
+              <superTis xsi:type="dvlm_calc:AdditionAndSubtraction" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.0/@expression/@right/@right"/>
+              <left xsi:type="dvlm_calc:NumberLiteral" isInherited="true" value="1">
+                <superTis xsi:type="dvlm_calc:NumberLiteral" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.0/@expression/@right/@right/@left"/>
+              </left>
+              <right xsi:type="dvlm_calc:ReferencedInput" isInherited="true" reference="98392332-aae8-4bc5-8ae0-6633ccc5ed9e">
+                <superTis xsi:type="dvlm_calc:ReferencedInput" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.0/@expression/@right/@right/@right"/>
+                <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.0/@expression/@right/@right/@right"/>
+              </right>
+            </right>
+          </right>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="64305032-7521-4456-bbfd-a07a7c71d14e" isInherited="true" reference="0305bbb1-1d57-4eb7-b01c-845ed08d823a">
+          <superTis xsi:type="dvlm_calc:TypeInstanceResult" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#f3bf2092-9b82-419a-b05b-2e490bc5f0ae"/>
+        </result>
+        <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.0"/>
+      </equations>
+      <equations isInherited="true" override="true" resultText="600.0">
+        <superTis xsi:type="dvlm_calc:Equation" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#600.0"/>
+        <expression xsi:type="dvlm_calc:AdditionAndSubtraction" isInherited="true" operator="-">
+          <superTis xsi:type="dvlm_calc:AdditionAndSubtraction" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.1/@expression"/>
+          <left xsi:type="dvlm_calc:ReferencedInput" isInherited="true" reference="0305bbb1-1d57-4eb7-b01c-845ed08d823a">
+            <superTis xsi:type="dvlm_calc:ReferencedInput" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.1/@expression/@left"/>
+            <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.1/@expression/@left"/>
+          </left>
+          <right xsi:type="dvlm_calc:ReferencedInput" isInherited="true" reference="212e67d8-3840-470b-b9ea-e6eb189c55a9">
+            <superTis xsi:type="dvlm_calc:ReferencedInput" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#//@categoryAssignments.0/@equationSection/@equations.1/@expression/@right"/>
+            <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.1/@expression/@right"/>
+          </right>
+        </expression>
+        <result xsi:type="dvlm_calc:TypeInstanceResult" uuid="298e2f74-baa2-4a01-aa31-6cd15b860a1b" isInherited="true" reference="c9c26fa8-7e50-4929-9deb-f142c63b86d6">
+          <superTis xsi:type="dvlm_calc:TypeInstanceResult" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#df127944-92c4-418b-ace7-f530701c6f20"/>
+        </result>
+        <definition href="../Repository.dvlm#//@activeConcepts.1/@categories.1/@equationDefinitions.1"/>
+      </equations>
+    </equationSection>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="212e67d8-3840-470b-b9ea-e6eb189c55a9" isInherited="true" value="3.0">
+      <superTis xsi:type="dvlm_cppi:UnitValuePropertyInstance" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#3082dbc8-47a8-4b62-a473-1787944aecf1"/>
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.mass"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="0305bbb1-1d57-4eb7-b01c-845ed08d823a" isInherited="true" override="true" value="3.6">
+      <superTis xsi:type="dvlm_cppi:UnitValuePropertyInstance" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#6d95a53e-6f53-4829-982f-eae111ee804d"/>
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massWithMargin"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="c9c26fa8-7e50-4929-9deb-f142c63b86d6" isInherited="true" override="true" value="0.6">
+      <superTis xsi:type="dvlm_cppi:UnitValuePropertyInstance" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#a3a04efb-9c55-4b14-91fd-fc90a07c1193"/>
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.massMargin"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#3515b116-f772-4069-a832-d527edb4f886"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:UnitValuePropertyInstance" uuid="98392332-aae8-4bc5-8ae0-6633ccc5ed9e" isInherited="true" value="20.0">
+      <superTis xsi:type="dvlm_cppi:UnitValuePropertyInstance" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#3e05d111-e611-4ab7-af80-f63a72e88dd5"/>
+      <type xsi:type="dvlm_cppd:FloatProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.budget.mass.AMassParameters.margin"/>
+      <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="f88463c5-d640-44f5-bdbc-048f2fb24550" isInherited="true" name="Power">
+    <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#e4fdf9be-47d8-41fe-aec5-3842b048e7e5"/>
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="5adb7d05-950f-4a2b-871c-c18927856c00" isInherited="true">
+      <superTis xsi:type="dvlm_cppi:ReferencePropertyInstance" href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#04918db2-11c2-4bb9-b816-3e283f2bc871"/>
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd.type"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_981c59b6-6fce-44a1-bd82-a584c757cc2c/StructuralElement.dvlm#8e974932-527e-4e61-ac6c-6142684051da"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <superSeis href="../ise_85dfea4f-0b2f-40ba-93e5-051665d98227/StructuralElement.dvlm#85dfea4f-0b2f-40ba-93e5-051665d98227"/>
+  <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
+</dvlm_s:StructuralElementInstance>

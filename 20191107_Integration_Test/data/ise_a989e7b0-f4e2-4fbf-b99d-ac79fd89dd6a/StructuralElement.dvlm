@@ -74,7 +74,7 @@
       <unit xsi:type="dvlm_qudv:PrefixedUnit" href="../UnitManagement.dvlm#982d93e5-9b7b-4ff5-b02f-5969e4335821"/>
     </propertyInstances>
   </categoryAssignments>
-  <categoryAssignments uuid="7a8ef9c3-f683-424a-9abe-761088ee6045" isInherited="true" name="InterfaceEnd">
+  <categoryAssignments uuid="7a8ef9c3-f683-424a-9abe-761088ee6045" isInherited="true" name="Poweeeeeeeeer">
     <superTis xsi:type="dvlm_cp:CategoryAssignment" href="../ise_427aadb6-e898-4f6d-9f39-fcfaa969445c/StructuralElement.dvlm#62cac532-f1bc-4140-b295-bdaf56738e91"/>
     <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.InterfaceEnd"/>
     <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="c5085707-aac9-44ae-8c84-bbeba454c705" isInherited="true">

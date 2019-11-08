@@ -35,5 +35,60 @@
       <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_1522ab45-6085-4468-a5c4-0468de0eb8f2/StructuralElement.dvlm#17e6ec9b-50eb-4f92-b1c4-d462d1814612"/>
     </propertyInstances>
   </categoryAssignments>
+  <categoryAssignments uuid="1f858e1e-2db8-4158-b2d7-4e7ffae462e0" name="PoweeeeeeeeerPwrIn">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="8a89ae67-a47a-4156-b3ee-21bfee5fcd99">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_a989e7b0-f4e2-4fbf-b99d-ac79fd89dd6a/StructuralElement.dvlm#7a8ef9c3-f683-424a-9abe-761088ee6045"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="b42baad3-6806-485e-9b01-d4bb467130aa">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#5f726e6c-e1ea-4a04-8066-3d9a6eaa6eba"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="4fd4b52c-aaf5-4b9f-8887-44c25d8a7db5" name="PoweeeeeeeeerPwrIn3">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="e22be4bc-df78-4104-a7dc-6a44efb37f99">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_4beebba3-e96f-47c8-9bbb-29e5844c7e74/StructuralElement.dvlm#b7e78483-0192-44e3-8fbd-242d1e623d13"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="3a315542-8f7d-4873-877a-7e9ee0a05d7d">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#8d422001-ba5d-4e12-b606-cadff43e9df8"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="35b64ff8-1e74-4793-9f95-47001aed849d" name="PwrOutPwrPCDU_1">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="99af5a2c-83b3-4c6a-901e-ac35df7f8742">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#2a369a35-e72a-4a75-a1c5-d7d9b2ef304a"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="b5b27ff2-e267-4d31-bb6f-c1ef9349e76f">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_78a1ea60-f90d-4ff9-a45a-418b02a3a2c9/StructuralElement.dvlm#ab1eb582-246f-4899-905c-18f4f3135597"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="22f48c88-d01c-43c7-9fd1-bfc92644483a" name="PwrOut2PowerIn">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="3c1e0186-d5cf-482a-acfc-a85864e1044f">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#19251903-83bb-43e6-9b42-5defa3d6e288"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="80c5b83b-807e-4bbe-967e-f6c77ae5449d">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0dc34c00-d18f-4940-967f-3e0bf22afa18/StructuralElement.dvlm#011a00fd-b53a-486f-a477-a894214a67b1"/>
+    </propertyInstances>
+  </categoryAssignments>
+  <categoryAssignments uuid="28fc39c8-c64b-459d-8515-651d8a82866b" name="PwrOut3PowerInput">
+    <type xsi:type="dvlm_cp:Category" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface"/>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="6a062726-f0a2-42fc-b1a6-88211cb4ef2e">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndFrom"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_0b25045e-0ba1-4ba3-ba6a-55631fe95d34/StructuralElement.dvlm#9230b107-4c77-4807-8468-7ed98017c10e"/>
+    </propertyInstances>
+    <propertyInstances xsi:type="dvlm_cppi:ReferencePropertyInstance" uuid="a02e7a5a-373c-4dc1-a8c1-bd8d4c4e47db">
+      <type xsi:type="dvlm_cppd:ReferenceProperty" href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.funcelectrical.Interface.interfaceEndTo"/>
+      <reference xsi:type="dvlm_cp:CategoryAssignment" href="../ise_7e3c064d-1000-45e8-958f-b49dd75aa530/StructuralElement.dvlm#f5fc07e2-9359-4baa-a029-3d9076575812"/>
+    </propertyInstances>
+  </categoryAssignments>
   <type href="../Repository.dvlm#de.dlr.sc.virsat.model.extension.ps.ElementConfiguration"/>
 </dvlm_s:StructuralElementInstance>
